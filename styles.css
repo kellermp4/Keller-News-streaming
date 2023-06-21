@@ -9,6 +9,7 @@ body {
   background-repeat: repeat;
   background-size: 1000px;
   background-position: ;
+  color: #336
 }
 
 /* Header styles */
@@ -37,6 +38,7 @@ main {
 
 #video-list ul li a {
   text-decoration: none;
+  color: #336
 }
 
 #video-list ul li img {
