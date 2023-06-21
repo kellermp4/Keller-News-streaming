@@ -2,14 +2,13 @@
 
 /* Global styles */
 body {
-  background-color: blue;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("Blue Website Interface Zoom Virtual Background.png");
+  background-image: url("https://raw.githubusercontent.com/kemerphy/Keller-News/main/Blue%20%20Website%20Interface%20Zoom%20Virtual%20Background.png");
   background-repeat: repeat;
-  background-size: cover;
-  background-position: center center;
+  background-size: 1000px;
+  background-position: ;
 }
 
 /* Header styles */
@@ -46,10 +45,17 @@ video {
   margin-bottom: 10px;
 }
 
+#video-list ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 #video-list ul li img {
-  width: 100px;
-  height: 75px;
+  width: 160px;
+  height: 90px;
   margin-right: 10px;
+  object-fit: cover;
 }
 
 #video-list ul li span {
