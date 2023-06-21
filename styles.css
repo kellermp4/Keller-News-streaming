@@ -6,7 +6,9 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("Blue Website Interface Zoom Virtual Background.png");
-  background-color: #ffbb00;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* Header styles */
