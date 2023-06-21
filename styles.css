@@ -29,8 +29,25 @@ main {
   flex-basis: 70%;
 }
 
-#video-list {
-  flex-basis: 25%;
+#video-list ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#video-list ul li a {
+  text-decoration: none;
+}
+
+#video-list ul li img {
+  width: 160px;
+  height: 90px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+#video-list ul li span {
+  font-size: 16px;
 }
 
 /* Video player styles */
