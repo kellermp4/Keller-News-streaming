@@ -35,11 +35,18 @@ video {
 }
 
 /* Video list styles */
-#video-list h2 {
-  /* CSS styles for video streaming platform with ducks background */
-
-body {
-  background-image: url("VID_20230621_130738.mp4");
-  background-repeat: repeat;
+#video-list ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
+#video-list ul li img {
+  width: 100px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+#video-list ul li span {
+  font-size: 16px;
+}
