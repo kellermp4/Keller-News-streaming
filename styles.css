@@ -85,6 +85,6 @@ video {
     }
 #video-list ul li a.active {
   font-weight: bold;
-  color: blue; /* Update with your preferred highlight color */
+  color: blue;
   text-decoration: underline;
 }
