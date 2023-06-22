@@ -83,3 +83,8 @@ video {
 .text-1 {
       text-align: right;
     }
+#video-list ul li a.active {
+  font-weight: bold;
+  color: blue; /* Update with your preferred highlight color */
+  text-decoration: underline;
+}
