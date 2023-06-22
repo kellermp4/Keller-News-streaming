@@ -5,8 +5,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: blue;
-  color: #336
+  background-size: 1920px 1080px;
+  background-image: linear-gradient(to bottom, #000000, #772020);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Header styles */
@@ -35,7 +38,7 @@ main {
 
 #video-list ul li a {
   text-decoration: none;
-  color: #336
+  color: white;
 }
 
 #video-list ul li img {
@@ -77,3 +80,6 @@ video {
 #video-list ul li span {
   font-size: 16px;
 }
+.text-1 {
+      text-align: right;
+    }
